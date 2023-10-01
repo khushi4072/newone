@@ -1,0 +1,50 @@
+/* .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 1;
+} */
+.card-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  text-align: center;
+  align-items: center;
+  transition: height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  overflow: hidden;
+}
+.overlay .content{
+    position: absolute;
+    top: 50px;
+}
+.card-wrapper:hover .overlay {
+  height: 100%;
+  opacity: 1;
+}
+
+.overlay > * {
+  margin: 10px;
+}
+
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+

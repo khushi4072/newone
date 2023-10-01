@@ -1,0 +1,91 @@
+
+
+.App{
+    width:85%;
+    margin:2rem auto;
+    /* background:#ccc; */
+    
+}
+
+/* .mainm{
+    background:#c9bcbc;
+    height:100vh;
+} */
+
+.slick-slide > div{
+    margin:0 10px;
+}
+
+.slick-list{
+    margin:0 -10px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card1{
+    border: 1px solid #fff;
+    background:#f3e2b2;
+    border-radius:8px;
+    overflow:hidden;
+    height:420px;
+    color:#222;
+    padding:1rem;
+}
+
+.card-top h1{
+    font-size:1rem;
+    font-weight:700;
+    text-align: justify;
+    margin-top:0.5rem;
+    text-transform:uppercase;
+    height:40px;
+    
+    
+}
+a{
+    text-decoration:none;
+}
+
+
+.slick-next{
+    background:#eaad04;
+}
+
+.slick-prev{
+    background:#eaad04;
+}
+
+
+
+.card-bottom p{
+    font-weight:500;
+    text-align:justify;
+    padding-top:0.5rem;
+    /* padding-bottom:2rem; */
+}
+
+.card-top h3{
+    font-size:0.7rem;
+    font-weight:700;
+    /* text-align: center; */
+    margin-top:0.9rem;
+
+}
+
+.card-top > img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+@media screen and (max-width:480px){
+    .card{
+        height:440px;
+    }
+}
+
+@media screen and (max-width:830px){
+    .card{
+        height:440px;
+    }
+}

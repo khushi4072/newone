@@ -1,0 +1,62 @@
+/* Styles for the navbar */
+.navbar {
+    /* Your navbar styles */
+  }
+  
+  /* Styles for the profile initials */
+  .profile-initials {
+    /* Your profile initials styles */
+    cursor: pointer;
+    background-color: green;
+    color:white;
+    padding:2px;
+    border-radius:50%;
+    width:40px;
+    text-align: center;
+  }
+  
+  .profile-initials.active {
+    /* Styles when dropdown is open */
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Styles for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top:50%;
+    right:100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding:15px;
+    width:200px;
+    height:auto;
+    text-align: center;
+    /* height:100vh; */
+  }
+  
+  .profile-initials.active + .dropdown-content {
+    display: block;
+    /* Adjust positioning and other styles as needed */
+  }
+
+@media screen and (max-width:1000px){
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top:50%;
+      right:20%;
+      background-color: white;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      padding:15px;
+      width:200px;
+      height:auto;
+      text-align: center;
+      /* height:100vh; */
+    }
+    
+  }
+  

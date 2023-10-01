@@ -1,0 +1,76 @@
+.sliderImg{
+  object-fit: cover;
+  height: 80vh;
+}
+.carousel-caption{
+bottom: 15% !important;
+}
+
+.Heading-1{
+  font-size: calc(22px + 0.5vw);
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.1rem;
+  
+}
+.navbar{
+  padding: 10px!important;
+  background-color: aliceblue!important;
+  color: rgb(15, 146, 151) !important;
+}
+.nav-link{
+  margin: 2px 20px;
+  font-size: large;
+  /* font-weight: bold!important; */
+    color: teal!important;
+    border-radius: 50px;
+  padding: 15px;
+}
+.head:hover{
+  /* font-weight: bolder; */
+    color: red !important ;
+    border-bottom:1px solid red;
+    transition:0.7s;
+
+
+}
+.page-footer{
+  background-color: rgb(3, 146, 146);
+  color: aliceblue;
+}
+.footerlink{
+  color: white;
+  text-decoration: none;
+}
+.footerlink:hover{
+  text-decoration: underline;
+}
+.mycard{
+  background-color: rgb(212, 237, 237);
+  border-radius: 20px;
+  border: none;
+  padding: 1rem;
+  height: "auto";
+  margin: 10px;
+
+}
+.mycard3{
+  /* background-color: rgb(212, 237, 237); */
+  border-radius: 20px;
+  border: none;
+  /* padding: 1rem; */
+  height: "auto";
+  margin: 10px;
+
+}
+.mycard1{
+   background-color: rgb(212, 237, 237);
+  border-radius: 20px;
+  border: none;
+  padding: 1rem;
+  height: "auto";
+  /* margin: 10px; */
+}
+.teambg{
+  background-color: #f7fefc;
+}

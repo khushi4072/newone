@@ -1,0 +1,14 @@
+/* styles.css (create a separate CSS file and import it into your main application) */
+
+/* Center the form vertically and horizontally within the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Add some spacing between the logo and the form */
+.text-center {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+const mongoose= require('mongoose')
+const info = new mongoose.Schema({
+   name:String,
+    mail:String, 
+    checkin:String,
+    checkout:String,
+    amount:Number,
+
+    
+    guest:String,
+    text:String,
+    adult:Number,
+    children:Number,
+    roomtype:String
+
+
+   
+
+    
+})
+module.exports= mongoose.model('contactdetail',info);

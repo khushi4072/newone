@@ -1,0 +1,17 @@
+.address{
+    font-size:1.1rem;
+    cursor:pointer;
+}
+
+.address:hover{
+    color:blue !important;
+}
+
+@media screen and (max-width:570px){
+    .address{
+        font-size:0.9rem;
+    }
+    .footer_text{
+        margin-top:1rem;
+    }
+}
